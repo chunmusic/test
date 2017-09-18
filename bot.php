@@ -25,7 +25,7 @@ if (!is_null($events['events'])) {
 			// Build another message to reply back
 			$messages2 = [
 				'type' => 'text',
-				'text' => "Hello, World"
+				'text' => 'Hello,World'
 			];
 			
 			// Make a POST Request to Messaging API to reply to sender
